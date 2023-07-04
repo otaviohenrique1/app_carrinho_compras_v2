@@ -121,10 +121,15 @@ class _Item extends StatelessWidget {
     return Column(
       children: [
         ListTile(
-          leading: const SizedBox(
+          leading: SizedBox(
             width: 50,
             height: 50,
-            child: Placeholder(),
+            child: Image(
+              height: 50,
+              width: 50,
+              image: AssetImage(item.foto),
+              fit: BoxFit.contain,
+            ),
           ),
           title: Text(item.nome),
           subtitle: Text(

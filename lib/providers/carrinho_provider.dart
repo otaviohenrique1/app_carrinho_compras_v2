@@ -32,7 +32,7 @@ class CarrinhoProvider extends ChangeNotifier {
       _carrinhoListaProdutos.add(CarrinhoProdutoModel(
         id: geraUuid(),
         produtoId: produto.id,
-        foto: "",
+        foto: produto.foto,
         nome: produto.nome,
         preco: produto.preco,
         categoria: produto.categoria,
