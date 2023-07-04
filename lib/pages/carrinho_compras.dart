@@ -18,16 +18,6 @@ class _CarrinhoComprasState extends State<CarrinhoCompras> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Carrinho"),
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.account_circle),
-          ),
-        ],
       ),
       body: Consumer<CarrinhoProvider>(
         builder: (context, carrinhoProviderConsumer, child) {

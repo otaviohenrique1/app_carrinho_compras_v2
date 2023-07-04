@@ -32,14 +32,6 @@ class _HomePageState extends State<HomePage> {
             },
             icon: const Icon(Icons.shopping_cart),
           ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.search),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.account_circle),
-          ),
         ],
       ),
       body: ListView.builder(
